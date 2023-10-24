@@ -1,0 +1,1 @@
+create table temp1(id int primary key,name varchar(20) not null,vid bigint unique,foreign key (vid) references student(id),salary int default 25000,age int check(age>18));

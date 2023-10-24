@@ -1,0 +1,1 @@
+select * from student3 left join course on student3.id=course.id;

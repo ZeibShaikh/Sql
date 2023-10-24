@@ -1,0 +1,1 @@
+delete from student1 where marks<40;

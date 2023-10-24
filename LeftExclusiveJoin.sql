@@ -1,0 +1,1 @@
+select * from student3 as a left join course as b on a.id=b.id where b.id is null;
